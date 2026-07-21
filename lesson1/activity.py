@@ -1,1 +1,16 @@
-print("Hi Ansh welcome to Python course")
+#Summer Routine:
+print("Wake up at 6:00 AM")
+print('Go to the larvatory and freshen up')
+print('Grab a drink from the fridge and open Khan Academy for SAT prep, preferably for 2 hours but minimum of 1 hour')
+print('Eat breakfast and get ready to tackle the day')
+print('Chill for a bit with my little brother on the game console')
+print('Back to Khan Academy for another 2 hours of preferably SAT prep, but minimum of 1 hour')
+print('Eat lunch and enjoy the Television for a bit')
+print('Go out for a badminton match with my family for a couple of hours')
+print('Inside the house with my family for dinner and some television again.')
+print('Learn python programming for 45 mins and work on homework for a little bit')
+print('AP Physics 1 code if energy left, max till 11:00 PM')
+print('Finally go to bed at 11:15 or 11:30 after reading my favorite book for a bit, and if no AP Physics 1, then sleep by 11:00 PM')
+
+print("This is my summer routine, and I will try to stick to it as much as possible.")
+print("Days left in my Junior year to begin:",33+11)
