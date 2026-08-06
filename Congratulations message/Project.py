@@ -1,2 +1,2 @@
-text=str(input("Enter a string: "))
-print(text.upper())
+wishes=str(input("Enter a string: "))
+print(wishes.upper())
