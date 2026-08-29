@@ -1,7 +1,7 @@
 integer1=int(input("Enter an integer: "))
-i=1
-sum=0
-while i <=integer1:
-    sum=sum+i
+i=0
+product=1
+while i < integer1:
+    product=product*(integer1-i)
     i=i+1
-print(sum)
+print(product)
