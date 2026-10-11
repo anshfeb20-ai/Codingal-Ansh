@@ -1,29 +1,43 @@
-calc_method = str(input("Which mathematical process will you be using today? (add, sub, multiply, divide): "))
+calc_method = input("Which mathematical process will you be using today? (add, sub, multiply, divide): ")
 
 if calc_method == 'add':
-    p=str(input('p=? '))
-    q=str(input('q=? '))
-    def add(p,q):
+    p = float(input('p=? '))
+    q = float(input('q=? '))
+
+    def add(p, q):
         return p + q
-add()    
 
-if calc_method == "sub":
-    p=str(input('p=? '))
-    q=str(input('q=? '))
-    def sub(p,q):
+    print(add(p, q))
+
+elif calc_method == "sub":
+    p = float(input('p=? '))
+    q = float(input('q=? '))
+
+    def sub(p, q):
         return p - q
-sub()
 
-if calc_method =='multiply':
-    p=str(input('p=? '))
-    q=str(input('q=? '))
-    def multiply(p,q):
+    print(sub(p, q))
+
+elif calc_method == 'multiply':
+    p = float(input('p=? '))
+    q = float(input('q=? '))
+
+    def multiply(p, q):
         return p * q
-multiply()
 
-if calc_method =='divide':
-    p=str(input('p=? '))
-    q=str(input('q=? '))
-    def divide(p,q):
+    print(multiply(p, q))
+
+elif calc_method == 'divide':
+    p = float(input('p=? '))
+    q = float(input('q=? '))
+
+    def divide(p, q):
+        if q == 0:
+            print("Cannot divide by zero.")
+            return
         return p / q
-divide()
+
+    print(divide(p, q))
+
+else:
+    print("Invalid operation.")
