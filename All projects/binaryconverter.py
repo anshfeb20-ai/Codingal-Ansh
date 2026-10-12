@@ -15,9 +15,3 @@ while decimal != 0:
     decimal = New_decimal - binvalue_decimal
 
 print(f'Binary value of {num} is {binary_whole}.{binary_decimal}')
-
-
-
-#INCOMPLETE PROJECT
-
-
