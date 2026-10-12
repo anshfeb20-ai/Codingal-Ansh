@@ -4,12 +4,11 @@ turtle.Screen().setup(300, 400)
 polygon = turtle.Turtle()
 polygon.color("black")
 
-num = 10
+angle=90
 distance = 100
 
-for i in range(num):
+for i in range(4):
     polygon.forward(distance)
-    polygon.right(90)
-    distance = distance - 10
+    polygon.right(angle)
 turtle.done()
     
